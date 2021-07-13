@@ -18,11 +18,11 @@ int   Finish=0;
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 /*+++++++++++++Credentials declaration+++++++++++++++*/
-char aws_endpoint[]        = "acoj91uoapwb9-ats.iot.us-east-2.amazonaws.com";//"asa98q49cpx85-ats.iot.us-east-2.amazonaws.com";
-char aws_key[]             = "AKIAZ3ILPMB2VI4ZAHSE";//"AKIAW4GIJAFOGHVSUIYA";                             
-char aws_secret[]          = "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";//"PPytGz5bRAUx1pnjsqA9bLsNE2oCR8tRRhBw3z5I";                  
+char aws_endpoint[]        = "**.amazonaws.com";//
+char aws_key[]             = "AK**E";                  
+char aws_secret[]          = "**";              
 char aws_region[]          = "us-east-2";                            
-const char* aws_pub_topic  = "$aws/things/hub/shadow/update";//"$aws/things/hub/shadow/update";  
+const char* aws_pub_topic  = "$aws/things/hub/shadow/update"; 
 const char* aws_sub_topic  = "incoming";
 int  port                  =  443;
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
